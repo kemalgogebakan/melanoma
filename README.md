@@ -16,7 +16,7 @@ Start with ui. See the corresponding server page, for the construction of the mo
 # Data Section:
 
 1. agestructure: Age distribution of U.S. Source: WHO 2000-2025 Standard via SEER 2013
-2. ex1: The input data for the example are pre-loaded into the package in an object called ex1, a list with four elements: $pol, $nh, map, and $tx. These are policies, natural history, stage shift map and treatment. For detailed explanation, see introduction page for the Breast Cancer Initiative at Fred Hutch. For the melanoma, I update these elements. You can see in server page of our shiny model. 
+2. ex1: The input data for the example are loaded into the package in an object called ex1, a list with four elements: $pol, $nh, map, and $tx. These are policies, natural history, stage shift map and treatment. For detailed explanation, see introduction page for the Breast Cancer Initiative at Fred Hutch. For the melanoma, I update these elements. You can see in server page of our shiny model. 
 3. incidence_mel: Clinical Melanoma Incidence by Age, for Year Of Diagnosis 2005-2009. Source: SEER Stat.
 4. othercausemort: Other Cause Mortality rate data by Age, is taken from Human Mortality Database, for Year 2009.
 
