@@ -6,9 +6,11 @@ Package includes documentation/codes to model the survival benefit of a melanoma
 
 devtools::install_github('cancerpolicy/bcimodel', build_vignettes=TRUE)
 
-# See the introduction page of the package. 
+# See the introduction page of the package with details. 
 
-# To understand the code, start with ui. See the corresponding server page, for construction of the model. simpolicies_melanoma.R under R codes. Simulation is done under simpolicies_mel function. The simulation method of this function is under simpolicies_melanoma.R code. For function map, see function_map file (This function_map is from the package of bcimodel. But I use the same function structure.)
+# To understand the codes in this package:
+
+Start with ui. See the corresponding server page, for the construction of the model. Simulation is done under simpolicies_mel function. The details of this function is under simpolicies_melanoma.R file. For function map, see function_map file. (This function_map is from the package of bcimodel. But I use the same function structure.)
 
 
 # Data Section:
